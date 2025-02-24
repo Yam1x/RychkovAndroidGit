@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             RychkovTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Mr. Max",
+                        name = "Mr. Max2",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     RychkovTheme {
-        Greeting("Mr. Max")
+        Greeting("Mr. Max2")
     }
 }
